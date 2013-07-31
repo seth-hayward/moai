@@ -253,7 +253,7 @@
 		07A9779B13F60EEE00FD50FE /* ParticlePresets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ParticlePresets.cpp; path = ../src/ParticlePresets.cpp; sourceTree = SOURCE_ROOT; };
 		07A9779C13F60EEE00FD50FE /* ParticlePresets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParticlePresets.h; path = ../src/ParticlePresets.h; sourceTree = SOURCE_ROOT; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D6058910D05DD3D006BFB54 /* MoaiSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoaiSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* lemonade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lemonade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		32CA4F630368D1EE00C91783 /* moai_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = moai_Prefix.pch; sourceTree = "<group>"; };
@@ -448,7 +448,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* MoaiSample.app */,
+				1D6058910D05DD3D006BFB54 /* lemonade.app */,
 				CDE350D61574C57100F2E1C5 /* MoaiSample-fmod-ex.app */,
 				CDE351791574C71200F2E1C5 /* MoaiSample-fmod-designer.app */,
 			);
@@ -591,7 +591,7 @@
 			);
 			name = MoaiSample;
 			productName = MoaiSample;
-			productReference = 1D6058910D05DD3D006BFB54 /* MoaiSample.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* lemonade.app */;
 			productType = "com.apple.product-type.application";
 		};
 		CDE3504C1574C57100F2E1C5 /* MoaiSample-fmod-ex */ = {
@@ -867,7 +867,7 @@
 					"\"$(SRCROOT)/Libraries/Crittercism\"",
 					"\"$(SRCROOT)/Libraries/Facebook\"",
 				);
-				PRODUCT_NAME = MoaiSample;
+				PRODUCT_NAME = lemonade;
 			};
 			name = Debug;
 		};
@@ -880,7 +880,7 @@
 					"\"$(SRCROOT)/Libraries/Crittercism\"",
 					"\"$(SRCROOT)/Libraries/Facebook\"",
 				);
-				PRODUCT_NAME = MoaiSample;
+				PRODUCT_NAME = lemonade;
 			};
 			name = Release;
 		};
