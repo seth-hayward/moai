@@ -879,16 +879,17 @@
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				LIBRARY_SEARCH_PATHS = (
-					../../lib/ios/universal,
+					/Users/seth/Desktop/moai/lib/ios/universal,
 					"Libraries/**",
 				);
 				OTHER_LDFLAGS = (
 					"-force_load",
-					"../../lib/ios/universal/libmoai-ios-tapjoy.a",
+					"/Users/seth/Desktop/moai/lib/ios/universal/libmoai-ios-tapjoy.a",
 				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = /Users/seth/Desktop/moai/include;
+				USER_HEADER_SEARCH_PATHS = "/Users/seth/Desktop/moai/include /Users/seth/Desktop/moai/lib";
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -904,16 +905,17 @@
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				LIBRARY_SEARCH_PATHS = (
-					../../lib/ios/universal,
+					/Users/seth/Desktop/moai/lib/ios/universal,
 					"Libraries/**",
 				);
 				OTHER_LDFLAGS = (
 					"-force_load",
-					"../../lib/ios/universal/libmoai-ios-tapjoy.a",
+					"/Users/seth/Desktop/moai/lib/ios/universal/libmoai-ios-tapjoy.a",
 				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = /Users/seth/Desktop/moai/include;
+				USER_HEADER_SEARCH_PATHS = "/Users/seth/Desktop/moai/include /Users/seth/Desktop/moai/lib";
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Release;
 		};
